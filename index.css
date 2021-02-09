@@ -1,0 +1,106 @@
+body {
+   background-image: url("https://anhdepfree.com/wp-content/uploads/2020/03/anh-nen-tet.png");
+   background-size: cover;
+}
+
+section {
+   margin-left: 250px;
+   margin-right: 250px;
+   width: 800px;
+   height: 600px;
+   background-color: white;
+   display: inline;
+}
+
+.logo img {
+   width: 10%;
+   height: 10%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 20px;
+}
+
+.logo {
+   background: url("https://i.pinimg.com/originals/7f/32/06/7f320612f59d361a261ab25f611fee47.gif");
+   margin-left: 240px;
+   margin-right: 250px;
+   background-size: 100px 100px;
+}
+
+#container {
+   margin: 50px 250px 0px 250px;
+   font-family: 'Patrick Hand', cursive;
+   color: #FFCCCC;
+   font-size: 20px;
+}
+
+.button1 {
+   font-size: 20px;
+   background: url("https://scr.vn/wp-content/uploads/2020/07/H%C3%ACnh-n%E1%BB%81n-%C4%91%E1%BA%B9p-m%C3%A0u-%C4%91%E1%BB%8F.jpg");
+   background-size: cover;
+   padding: 1.2em 1.4em;
+   border: none;
+   margin: 5px;
+   border-radius: 6px;
+   transition: 0.5s;
+   color: white;
+}
+
+.button1 span {
+   position: relative;
+   display: inline-block;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.button1 span:after {
+   content: "\00bb";
+   position: absolute;
+   right: -15px;
+   transition: 0.5s;
+   opacity: 0;
+}
+
+.button1:hover span {
+   padding-right: 20px;
+}
+
+.button1:hover span:after {
+   opacity: 1;
+   right: 0;
+}
+
+#main {
+   margin-left: 250px;
+   margin-right: 250px;
+   text-align: justify;
+}
+
+@import "compass/css3";
+html, body {
+   width: 100%;
+   height: 100%;
+   margin: 0px;
+   overflow: hidden;
+   &:hover {
+      span {
+         display: none;
+      }
+   }
+}
+
+canvas {
+   cursor: crosshair;
+}
+
+/* span {
+    font-family: 'Georgia', cursive;
+  font-size: 20px;
+ position: fixed; 
+  top: 50%;
+  left: 50%;
+  color: #white;
+  margin-top: -40px;
+  margin-left: -200px;
+} */
